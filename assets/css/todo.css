@@ -1,11 +1,67 @@
 #container {
 	background-color: orange;
 	width:700px;
-	margin:0 auto;
+	margin:100px auto;
 	border: 2px solid red;
+	box-shadow: 0 0 10px red
 }
 
 .completed {
 	color: grey;
 	text-decoration: line-through;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 20px 0px 0px ;
+}
+
+body {
+	font-family: 'Arimo', sans-serif;
+	background-image: url("https://images.pexels.com/photos/1532191/pexels-photo-1532191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
+}
+
+h1 {
+	color: red;
+	display: inline-text;
+	text-align: center;
+	background-color: yellow;
+	text-shadow: 0 0 5px red;
+	text-transform: uppercase;
+	padding: 10px 0px;
+	font-weight: normal;
+}
+
+input {
+	font-size: 20px;
+	color: red;
+	width: 500px;
+	height: 30px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+input:focus {
+	background: blue;
+	border: 3px solid purple;
+	color: white;
+}
+li {
+	background-color: yellow;
+	color: black;
+	height: 40px;
+	line-height: 40px;
+}
+
+li:nth-child(2n){
+	background-color: red;
+	color: white;
+}
+
+.inbox {
+	background-color: red;
+	display: inline;
+	align-content: center;
 }
