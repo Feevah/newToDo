@@ -10,6 +10,22 @@
 	color: grey;
 	text-decoration: line-through;
 }
+span{
+	background-color: white;
+	color: black;
+	height: 40px;
+	width: 0px;
+	margin-right: 20px;
+	text-align: center;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
 
 ul {
 	list-style: none;
@@ -29,7 +45,7 @@ h1 {
 	background-color: yellow;
 	text-shadow: 0 0 5px red;
 	text-transform: uppercase;
-	padding: 10px 0px;
+	padding: 10px 20px;
 	font-weight: normal;
 }
 
@@ -44,9 +60,9 @@ input {
 }
 
 input:focus {
-	background: blue;
-	border: 3px solid purple;
-	color: white;
+	background: yellow;
+	border: 3px solid red;
+	color: red;
 }
 li {
 	background-color: yellow;
@@ -64,4 +80,8 @@ li:nth-child(2n){
 	background-color: red;
 	display: inline;
 	align-content: center;
+}
+
+.fa-pencil-alt {
+	float: right;
 }
